@@ -70,7 +70,7 @@ duoshuo_shortname:
 #   branch: master
 deploy:
   type: git
-  repo: https://github.com/ZYLyanzi/ZYLyanzi.git
+  repo: https://github.com/ZYLyanzi/ZYLyanzi.github.io.git
   branch: master
 
 search:

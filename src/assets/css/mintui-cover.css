@@ -1,0 +1,69 @@
+.mint-checklist-title {
+	text-align: center;
+    font-size: .34rem;
+    color: #333;
+    margin: 0;
+    padding: .4rem 0 .2rem 0;
+}
+.mint-checklist .mint-cell {
+    padding: 0;
+    position: relative;
+    left: .24rem;
+}
+.mint-cell-wrapper {
+	/*height:.76rem;*/
+	padding: .32rem .48rem 0 0;
+	align-items: baseline;
+    font-size:14px;
+    background-origin: inherit;
+}
+
+.mint-field.is-textarea .mint-cell-value {
+    height:auto;
+}
+.mint-checklist-label {
+	padding:0;
+}
+
+.mint-checkbox-input:checked + .mint-checkbox-core {
+    background-color: #ff7a00;
+    border-color: #ff7a00;
+}
+.mint-checklist.is-limit .mint-checkbox-core:not(:checked) {
+    background-color: #ff7a00;
+    border-color: #ff7a00;
+}
+.mint-checkbox-core {
+    width: .4rem;
+    height: .4rem;
+}
+.mint-checkbox-core::after {
+    top: .08rem;
+    left: .14rem;
+    position: absolute;
+    width: .08rem;
+    height: .16rem;
+}
+
+.mint-msgbox-cancel {
+    color:#000;
+}
+
+.mint-spinner-fading-circle-circle::before  {
+    /*border-radius:50%;*/
+}
+
+.mint-cell-wrapper{
+    border-bottom: solid 1px #e5e5e5;
+    background-image: none;
+}
+
+.mint-cell:last-child {
+
+    background-image:none;
+}
+
+.mint-popup-bottom {
+    transform: none;
+    margin-left: -50%;
+}
